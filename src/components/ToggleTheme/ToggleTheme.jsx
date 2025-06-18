@@ -6,7 +6,7 @@ const ToggleTheme = () => {
     const pageClasses = document.documentElement.classList
 
     const toggle = () => {
-        document.documentElement.classList.toggle('dark')
+        pageClasses.toggle('dark')
     }
     
     useEffect(() => {
